@@ -1,0 +1,7 @@
+Stroka = input("Введите слово: ")
+b = Stroka.lower()
+a = b[::-1]
+if b == a:
+    print('Yes')
+else:
+    print('No')
