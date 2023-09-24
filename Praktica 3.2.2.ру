@@ -1,5 +1,5 @@
 Slovo = input("Введите предложение не превышающие 1000 символов!: ")
-if len(Slovo) == 1001:
+if len(Slovo) >= 1001:
     print("Не выполнены требования условия")
 else:
     print(" ".join(Slovo.split()))
