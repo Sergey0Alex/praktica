@@ -1,0 +1,4 @@
+n = int(input("Введите кол-во элементов списка: "))
+spisok = list(map(int, input().split()))
+a = set(spisok)
+print(len(a))
