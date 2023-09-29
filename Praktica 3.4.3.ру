@@ -1,0 +1,7 @@
+list=set()
+for i in input().split():
+    if i not in list:
+        list.add(i)
+        print('NO')
+    else:
+        print('YES')
