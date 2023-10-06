@@ -98,5 +98,5 @@ while True:
         continue
     if command == "stop":
         break
-commands[command]()
+    commands[command]()
 input("Продолжить...")
